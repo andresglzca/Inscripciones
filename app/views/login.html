@@ -1,0 +1,22 @@
+<form class="sign-box"  ng-submit="loginSubmit()">
+  <div class="sign-avatar">
+    <img src="/images/avatar-sign.png" alt="">
+  </div>
+  <header class="sign-title">Entrar</header>
+  <div class="form-group">
+    <input type="text" class="form-control" id="" placeholder="Correo" ng-model="user.email">
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" id="" placeholder="Contraseña" ng-model="user.password">
+  </div>
+  <div class="form-group">
+    <div class="checkbox float-left">
+      <input type="checkbox" name="signed-in" value="">
+      <label for="signed-in">Mantener sesión</label>
+    </div>
+    <div class="float-right reset">
+        <a href="/reset-password.html">Perdí mi contraseña</a>
+    </div>
+  </div>
+  <button type="submit"class="btn btn-rounded" name="button">Entrar</button>
+</form>
